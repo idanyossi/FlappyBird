@@ -1,0 +1,2223 @@
+fileFormatVersion: 2
+guid: 790e88ec45b4ba14ca2e750dd4b988b7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 713608227219364676
+    second: flappy_sheet_0
+  - first:
+      213: 140267323429363913
+    second: flappy_sheet_1
+  - first:
+      213: -157653571069560706
+    second: flappy_sheet_2
+  - first:
+      213: 4033738641448725716
+    second: flappy_sheet_3
+  - first:
+      213: -1915631516407751938
+    second: flappy_sheet_4
+  - first:
+      213: -4756696208063936371
+    second: flappy_sheet_5
+  - first:
+      213: -5121931957873126377
+    second: flappy_sheet_6
+  - first:
+      213: -1577242415953830008
+    second: flappy_sheet_7
+  - first:
+      213: -452117465592080051
+    second: flappy_sheet_8
+  - first:
+      213: -7866529372431376516
+    second: flappy_sheet_9
+  - first:
+      213: 8266454460011832408
+    second: flappy_sheet_10
+  - first:
+      213: 2540285039805733215
+    second: flappy_sheet_11
+  - first:
+      213: 3071427878397375381
+    second: flappy_sheet_12
+  - first:
+      213: -6277111736626797897
+    second: flappy_sheet_13
+  - first:
+      213: -4981487157547985825
+    second: flappy_sheet_14
+  - first:
+      213: 2702930458776756425
+    second: flappy_sheet_15
+  - first:
+      213: -5177677585456548058
+    second: flappy_sheet_16
+  - first:
+      213: 3626221506528396160
+    second: flappy_sheet_17
+  - first:
+      213: -709353016211712565
+    second: flappy_sheet_18
+  - first:
+      213: -8269201581716366323
+    second: flappy_sheet_19
+  - first:
+      213: -3784968527703725318
+    second: flappy_sheet_20
+  - first:
+      213: 8888938240332650736
+    second: flappy_sheet_21
+  - first:
+      213: -2749425235197874823
+    second: flappy_sheet_22
+  - first:
+      213: 2886676064388359868
+    second: flappy_sheet_23
+  - first:
+      213: 7020161598663670858
+    second: flappy_sheet_24
+  - first:
+      213: 835640778451882020
+    second: flappy_sheet_25
+  - first:
+      213: 6491783402758977698
+    second: flappy_sheet_26
+  - first:
+      213: -2567244027483855218
+    second: flappy_sheet_27
+  - first:
+      213: -7696282434663869557
+    second: flappy_sheet_28
+  - first:
+      213: -2501142584228402431
+    second: flappy_sheet_29
+  - first:
+      213: 968155945351748633
+    second: flappy_sheet_30
+  - first:
+      213: -8413799177265139722
+    second: flappy_sheet_31
+  - first:
+      213: 9057048696887236315
+    second: flappy_sheet_32
+  - first:
+      213: 6354057680706594558
+    second: flappy_sheet_33
+  - first:
+      213: 3366939391289974899
+    second: flappy_sheet_34
+  - first:
+      213: 724925873351502314
+    second: flappy_sheet_35
+  - first:
+      213: 4798646435322933278
+    second: flappy_sheet_36
+  - first:
+      213: -2620060544171721932
+    second: flappy_sheet_37
+  - first:
+      213: 1170034912697002188
+    second: flappy_sheet_38
+  - first:
+      213: 5540017594810452013
+    second: flappy_sheet_39
+  - first:
+      213: -6649372088001257048
+    second: flappy_sheet_40
+  - first:
+      213: -6047510917264354196
+    second: flappy_sheet_41
+  - first:
+      213: -6282224999846182855
+    second: flappy_sheet_42
+  - first:
+      213: -8146963882433392059
+    second: flappy_sheet_43
+  - first:
+      213: -6286310022614040833
+    second: flappy_sheet_44
+  - first:
+      213: -2350792036824380055
+    second: flappy_sheet_45
+  - first:
+      213: -4362226225045323041
+    second: flappy_sheet_46
+  - first:
+      213: 5878132364709984650
+    second: flappy_sheet_47
+  - first:
+      213: -6476990244533399911
+    second: flappy_sheet_48
+  - first:
+      213: 2260152935481139253
+    second: flappy_sheet_49
+  - first:
+      213: 6418706537737090008
+    second: flappy_sheet_50
+  - first:
+      213: -1169865000430642964
+    second: flappy_sheet_51
+  - first:
+      213: -5573236988511640758
+    second: flappy_sheet_52
+  - first:
+      213: -7777577303960431274
+    second: flappy_sheet_53
+  - first:
+      213: 27546180668879114
+    second: flappy_sheet_54
+  - first:
+      213: 6942558846805403407
+    second: flappy_sheet_55
+  - first:
+      213: 3054268617370315787
+    second: flappy_sheet_56
+  - first:
+      213: -1268081652525886419
+    second: flappy_sheet_57
+  - first:
+      213: -7430596381663935546
+    second: flappy_sheet_58
+  - first:
+      213: -2535215764415099017
+    second: flappy_sheet_59
+  - first:
+      213: -3721819765146221270
+    second: flappy_sheet_60
+  - first:
+      213: -5317927292340053253
+    second: flappy_sheet_61
+  - first:
+      213: 2451749965881548137
+    second: flappy_sheet_62
+  - first:
+      213: -7553956407280956002
+    second: flappy_sheet_63
+  - first:
+      213: -4295024592872189050
+    second: flappy_sheet_64
+  - first:
+      213: -4667450501664191921
+    second: flappy_sheet_65
+  - first:
+      213: 6023733030213102812
+    second: flappy_sheet_66
+  - first:
+      213: -3925588540903335381
+    second: flappy_sheet_67
+  - first:
+      213: -174857610005812231
+    second: flappy_sheet_68
+  - first:
+      213: 4007847696874534260
+    second: flappy_sheet_69
+  - first:
+      213: -3232639235849618430
+    second: flappy_sheet_70
+  - first:
+      213: 3735194767309678907
+    second: flappy_sheet_71
+  - first:
+      213: -5907680208450863457
+    second: flappy_sheet_72
+  - first:
+      213: -7385628707743980087
+    second: flappy_sheet_73
+  - first:
+      213: -4922675297385224956
+    second: flappy_sheet_74
+  - first:
+      213: -8092602441316722586
+    second: flappy_sheet_75
+  - first:
+      213: -5572820478012006090
+    second: flappy_sheet_76
+  - first:
+      213: -6325437195458536580
+    second: flappy_sheet_77
+  - first:
+      213: -8960868570292193033
+    second: flappy_sheet_78
+  - first:
+      213: 8794746788878269867
+    second: flappy_sheet_79
+  - first:
+      213: -8544872653823900541
+    second: flappy_sheet_80
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: flappy_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 255
+        width: 145
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44bd43cd6ee37e900800000000000000
+      internalID: 713608227219364676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 255
+        width: 146
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c02a92336452f100800000000000000
+      internalID: 140267323429363913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 455
+        width: 170
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e78b3d299e6efcdf0800000000000000
+      internalID: -157653571069560706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 492
+        width: 33
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dc61583ce7baf730800000000000000
+      internalID: 4033738641448725716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 501
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efa19f7094f4a65e0800000000000000
+      internalID: -1915631516407751938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 489
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d88c6e53002dcfdb0800000000000000
+      internalID: -4756696208063936371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 471
+        width: 42
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 714504f750e3be8b0800000000000000
+      internalID: -5121931957873126377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 475
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88f946811628c1ae0800000000000000
+      internalID: -1577242415953830008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 455
+        width: 42
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4952aa7f81c9b9f0800000000000000
+      internalID: -452117465592080051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 459
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7f1d05e63974d290800000000000000
+      internalID: -7866529372431376516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 431
+        width: 34
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 854e2f8a88858b270800000000000000
+      internalID: 8266454460011832408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 427
+        width: 60
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f591cd1e8c7e04320800000000000000
+      internalID: 2540285039805733215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 431
+        width: 51
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5937b1dd167ef9a20800000000000000
+      internalID: 3071427878397375381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 431
+        width: 44
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b2ace2122833e8a0800000000000000
+      internalID: -6277111736626797897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 433
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f549e21c2d33edab0800000000000000
+      internalID: -4981487157547985825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 408
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c0e8f77eecb28520800000000000000
+      internalID: 2702930458776756425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 396
+        width: 91
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6273c552ba13528b0800000000000000
+      internalID: -5177677585456548058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 422
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 083c1856f3de25230800000000000000
+      internalID: 3626221506528396160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 414
+        width: 26
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc55958a03fd726f0800000000000000
+      internalID: -709353016211712565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 414
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0c92b939f4ed3d80800000000000000
+      internalID: -8269201581716366323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 414
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afaaf2c7d27197bc0800000000000000
+      internalID: -3784968527703725318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 414
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f8d965eb3adb5b70800000000000000
+      internalID: 8888938240332650736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 414
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97d298fc05418d9d0800000000000000
+      internalID: -2749425235197874823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 414
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb6ad7716988f0820800000000000000
+      internalID: 2886676064388359868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 414
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4cbf2297cf9c6160800000000000000
+      internalID: 7020161598663670858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 404
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 420947f4cdac89b00800000000000000
+      internalID: 835640778451882020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 394
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a8b9302c92771a50800000000000000
+      internalID: 6491783402758977698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 364
+        width: 54
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e86e41aa8215f5cd0800000000000000
+      internalID: -2567244027483855218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 364
+        width: 54
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8318cef6ef413590800000000000000
+      internalID: -7696282434663869557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 378
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10ba67e32182a4dd0800000000000000
+      internalID: -2501142584228402431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 371
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91c9fd9e3b49f6d00800000000000000
+      internalID: 968155945351748633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 378
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ff23abf93e2c3b80800000000000000
+      internalID: -8413799177265139722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 355
+        width: 42
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd6d063bdc911bd70800000000000000
+      internalID: 9057048696887236315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy_sheet_33
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 355
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef6ebdc9bc52e2850800000000000000
+      internalID: 6354057680706594558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy_sheet_34
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 333
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 370eb1e9985c9be20800000000000000
+      internalID: 3366939391289974899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy_sheet_35
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 333
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae92b91bd347f0a00800000000000000
+      internalID: 724925873351502314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy_sheet_36
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 333
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e103e143287389240800000000000000
+      internalID: 4798646435322933278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy_sheet_37
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 333
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43bb0a611dca3abd0800000000000000
+      internalID: -2620060544171721932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy_sheet_38
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 309
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc82c12dd8ccc3010800000000000000
+      internalID: 1170034912697002188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy_sheet_39
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 309
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d28471476a812ec40800000000000000
+      internalID: 5540017594810452013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy_sheet_40
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 309
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a1a94bd05fa8b3a0800000000000000
+      internalID: -6649372088001257048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy_sheet_41
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 309
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c645921acdce21ca0800000000000000
+      internalID: -6047510917264354196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy_sheet_42
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 289
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9300715b5ad01d8a0800000000000000
+      internalID: -6282224999846182855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy_sheet_43
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 295
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 542de9d638b20fe80800000000000000
+      internalID: -8146963882433392059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy_sheet_44
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 271
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffebc1a375a82c8a0800000000000000
+      internalID: -6286310022614040833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy_sheet_45
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 259
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96d0448f81f406fd0800000000000000
+      internalID: -2350792036824380055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy_sheet_46
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 195
+        width: 115
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd2c7424c524673c0800000000000000
+      internalID: -4362226225045323041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy_sheet_47
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 231
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a89f345fd32539150800000000000000
+      internalID: 5878132364709984650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy_sheet_48
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 207
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99e8aec60bb1d16a0800000000000000
+      internalID: -6476990244533399911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy_sheet_49
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 191
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 530e869be1dad5f10800000000000000
+      internalID: 2260152935481139253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy_sheet_50
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 195
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d3fb4b9693d31950800000000000000
+      internalID: 6418706537737090008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy_sheet_51
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 28
+        width: 27
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce85b26fafdc3cfe0800000000000000
+      internalID: -1169865000430642964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy_sheet_52
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 28
+        width: 28
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4322babc72e7a2b0800000000000000
+      internalID: -5573236988511640758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy_sheet_53
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 28
+        width: 28
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6555c4046ae701490800000000000000
+      internalID: -7777577303960431274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy_sheet_54
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 28
+        width: 28
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a01ffa9fa1dd16000800000000000000
+      internalID: 27546180668879114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy_sheet_55
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 170
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f07e418ec7ce85060800000000000000
+      internalID: 6942558846805403407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy_sheet_56
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 167
+        width: 8
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0c2bf21021f26a20800000000000000
+      internalID: 3054268617370315787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy_sheet_57
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 144
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d241103a47ed66ee0800000000000000
+      internalID: -1268081652525886419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy_sheet_58
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 155
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c34e99b5f731e890800000000000000
+      internalID: -7430596381663935546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy_sheet_59
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 140
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77f4115c1ba11dcd0800000000000000
+      internalID: -2535215764415099017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy_sheet_60
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 118
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a258e6484a0795cc0800000000000000
+      internalID: -3721819765146221270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy_sheet_61
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 129
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfa57be9d4de236b0800000000000000
+      internalID: -5317927292340053253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy_sheet_62
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 120
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96d1272aa9d560220800000000000000
+      internalID: 2451749965881548137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy_sheet_63
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 113
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9d8b3f8ba4fa2790800000000000000
+      internalID: -7553956407280956002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy_sheet_64
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 92
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 683594883e10564c0800000000000000
+      internalID: -4295024592872189050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy_sheet_65
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 103
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4a46997f72e93fb0800000000000000
+      internalID: -4667450501664191921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy_sheet_66
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 94
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdca3af9649989350800000000000000
+      internalID: 6023733030213102812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy_sheet_67
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 66
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2adc1d45028589c0800000000000000
+      internalID: -3925588540903335381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy_sheet_68
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 77
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fb645d1ee7c29df0800000000000000
+      internalID: -174857610005812231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy_sheet_69
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 68
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 475f21eee3cbe9730800000000000000
+      internalID: 4007847696874534260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy_sheet_70
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 36
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20c71340ebb5323d0800000000000000
+      internalID: -3232639235849618430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy_sheet_71
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 38
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b392468d9d316d330800000000000000
+      internalID: 3735194767309678907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy_sheet_72
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 12
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9e3ea09624b30ea0800000000000000
+      internalID: -5907680208450863457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy_sheet_73
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 12
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c52eff22d9f08990800000000000000
+      internalID: -7385628707743980087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy_sheet_74
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 24
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40563c206e42fabb0800000000000000
+      internalID: -4922675297385224956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy_sheet_75
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 8
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6689bd0c4fc41bf80800000000000000
+      internalID: -8092602441316722586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy_sheet_76
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 8
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63162132d4d59a2b0800000000000000
+      internalID: -5572820478012006090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy_sheet_77
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 8
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7b96a362688738a0800000000000000
+      internalID: -6325437195458536580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy_sheet_78
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 8
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f875c4138994a380800000000000000
+      internalID: -8960868570292193033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy_sheet_79
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 3
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: badb890ab973d0a70800000000000000
+      internalID: 8794746788878269867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy_sheet_80
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 0
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38480e118938a6980800000000000000
+      internalID: -8544872653823900541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      flappy_sheet_0: 713608227219364676
+      flappy_sheet_1: 140267323429363913
+      flappy_sheet_10: 8266454460011832408
+      flappy_sheet_11: 2540285039805733215
+      flappy_sheet_12: 3071427878397375381
+      flappy_sheet_13: -6277111736626797897
+      flappy_sheet_14: -4981487157547985825
+      flappy_sheet_15: 2702930458776756425
+      flappy_sheet_16: -5177677585456548058
+      flappy_sheet_17: 3626221506528396160
+      flappy_sheet_18: -709353016211712565
+      flappy_sheet_19: -8269201581716366323
+      flappy_sheet_2: -157653571069560706
+      flappy_sheet_20: -3784968527703725318
+      flappy_sheet_21: 8888938240332650736
+      flappy_sheet_22: -2749425235197874823
+      flappy_sheet_23: 2886676064388359868
+      flappy_sheet_24: 7020161598663670858
+      flappy_sheet_25: 835640778451882020
+      flappy_sheet_26: 6491783402758977698
+      flappy_sheet_27: -2567244027483855218
+      flappy_sheet_28: -7696282434663869557
+      flappy_sheet_29: -2501142584228402431
+      flappy_sheet_3: 4033738641448725716
+      flappy_sheet_30: 968155945351748633
+      flappy_sheet_31: -8413799177265139722
+      flappy_sheet_32: 9057048696887236315
+      flappy_sheet_33: 6354057680706594558
+      flappy_sheet_34: 3366939391289974899
+      flappy_sheet_35: 724925873351502314
+      flappy_sheet_36: 4798646435322933278
+      flappy_sheet_37: -2620060544171721932
+      flappy_sheet_38: 1170034912697002188
+      flappy_sheet_39: 5540017594810452013
+      flappy_sheet_4: -1915631516407751938
+      flappy_sheet_40: -6649372088001257048
+      flappy_sheet_41: -6047510917264354196
+      flappy_sheet_42: -6282224999846182855
+      flappy_sheet_43: -8146963882433392059
+      flappy_sheet_44: -6286310022614040833
+      flappy_sheet_45: -2350792036824380055
+      flappy_sheet_46: -4362226225045323041
+      flappy_sheet_47: 5878132364709984650
+      flappy_sheet_48: -6476990244533399911
+      flappy_sheet_49: 2260152935481139253
+      flappy_sheet_5: -4756696208063936371
+      flappy_sheet_50: 6418706537737090008
+      flappy_sheet_51: -1169865000430642964
+      flappy_sheet_52: -5573236988511640758
+      flappy_sheet_53: -7777577303960431274
+      flappy_sheet_54: 27546180668879114
+      flappy_sheet_55: 6942558846805403407
+      flappy_sheet_56: 3054268617370315787
+      flappy_sheet_57: -1268081652525886419
+      flappy_sheet_58: -7430596381663935546
+      flappy_sheet_59: -2535215764415099017
+      flappy_sheet_6: -5121931957873126377
+      flappy_sheet_60: -3721819765146221270
+      flappy_sheet_61: -5317927292340053253
+      flappy_sheet_62: 2451749965881548137
+      flappy_sheet_63: -7553956407280956002
+      flappy_sheet_64: -4295024592872189050
+      flappy_sheet_65: -4667450501664191921
+      flappy_sheet_66: 6023733030213102812
+      flappy_sheet_67: -3925588540903335381
+      flappy_sheet_68: -174857610005812231
+      flappy_sheet_69: 4007847696874534260
+      flappy_sheet_7: -1577242415953830008
+      flappy_sheet_70: -3232639235849618430
+      flappy_sheet_71: 3735194767309678907
+      flappy_sheet_72: -5907680208450863457
+      flappy_sheet_73: -7385628707743980087
+      flappy_sheet_74: -4922675297385224956
+      flappy_sheet_75: -8092602441316722586
+      flappy_sheet_76: -5572820478012006090
+      flappy_sheet_77: -6325437195458536580
+      flappy_sheet_78: -8960868570292193033
+      flappy_sheet_79: 8794746788878269867
+      flappy_sheet_8: -452117465592080051
+      flappy_sheet_80: -8544872653823900541
+      flappy_sheet_9: -7866529372431376516
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

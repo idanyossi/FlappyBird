@@ -1,4 +1,5 @@
 using System.IO;
+using FlappyBird.Audio;
 using FlappyBird.Core;
 using FlappyBird.Environment;
 using FlappyBird.Obstacles;
@@ -22,7 +23,8 @@ namespace FlappyBird.EditorTools
     /// </summary>
     public static class SceneBuilder
     {
-        private const string ArtFolder = "Assets/Art";
+        private const string ArtFolder = "Assets/Art/Game";
+        private const string AudioFolder = "Assets/Audio";
         private const string PrefabFolder = "Assets/Prefabs";
         private const string ScenePath = "Assets/Scenes/Game.unity";
 
@@ -32,8 +34,9 @@ namespace FlappyBird.EditorTools
         private const float GroundTopY = -3.6f;
         private const float BirdStartX = -3f;
 
-        private const float PipeWidth = 1.6f;
-        private const float PipeHeight = 10f;
+        // Pipe dimensions are no longer declared here: the sheet sprite is
+        // imported at a pixels-per-unit that already gives the right world size,
+        // so BuildPipeArm reads them off the sprite instead.
 
         [MenuItem("Tools/Flappy Bird/Build Scene")]
         public static void BuildScene()
@@ -51,6 +54,7 @@ namespace FlappyBird.EditorTools
             GameObject ground = BuildGround();
             BirdController bird = BuildBird();
             PipeSpawner spawner = BuildSystems(pipePrefab);
+            BuildAudio(bird);
             BuildHud();
 
             EditorSceneManager.SaveScene(scene, ScenePath);
@@ -102,26 +106,34 @@ namespace FlappyBird.EditorTools
         }
 
         /// <summary>
-        /// One arm of the pair: an anchor at the gap mouth, holding a sprite and
-        /// collider pushed away from the opening.
+        /// One arm of the pair: an anchor sitting at the mouth of the gap, with
+        /// the pipe pushed a full half-length away from it so the sprite's near
+        /// end lands exactly on the anchor.
+        ///
+        /// The sheet's pipe already includes its cap, at the bottom of the
+        /// image. That suits the upper pipe as-is; the lower one is flipped so
+        /// its cap points up into the gap.
         /// </summary>
         private static Transform BuildPipeArm(Transform parent, string name, float direction)
         {
             GameObject anchor = new GameObject(name);
             anchor.transform.SetParent(parent, false);
 
+            Sprite sprite = LoadSprite("pipe");
+            float pipeWidth = sprite.rect.width / sprite.pixelsPerUnit;
+            float pipeHeight = sprite.rect.height / sprite.pixelsPerUnit;
+
             GameObject body = new GameObject("Body");
             body.transform.SetParent(anchor.transform, false);
-            body.transform.localPosition = new Vector3(0f, direction * PipeHeight * 0.5f, 0f);
+            body.transform.localPosition = new Vector3(0f, direction * pipeHeight * 0.5f, 0f);
 
             SpriteRenderer renderer = body.AddComponent<SpriteRenderer>();
-            renderer.sprite = LoadSprite("pipe_body");
-            renderer.drawMode = SpriteDrawMode.Tiled;
-            renderer.size = new Vector2(PipeWidth, PipeHeight);
+            renderer.sprite = sprite;
+            renderer.flipY = direction < 0f;
             renderer.sortingOrder = 5;
 
             BoxCollider2D collider = body.AddComponent<BoxCollider2D>();
-            collider.size = new Vector2(PipeWidth, PipeHeight);
+            collider.size = new Vector2(pipeWidth, pipeHeight);
 
             return anchor.transform;
         }
@@ -143,13 +155,17 @@ namespace FlappyBird.EditorTools
 
         private static GameObject BuildSky()
         {
+            Sprite sprite = LoadSprite("background");
+
             GameObject sky = new GameObject("Sky");
             sky.transform.position = new Vector3(0f, 0f, 10f);
 
             SpriteRenderer renderer = sky.AddComponent<SpriteRenderer>();
-            renderer.sprite = LoadSprite("sky");
-            renderer.drawMode = SpriteDrawMode.Sliced;
-            renderer.size = new Vector2(40f, 2f * CameraSize);
+            renderer.sprite = sprite;
+            renderer.drawMode = SpriteDrawMode.Tiled;
+            // Imported so one tile is exactly the camera height; repeated
+            // sideways to span well past both edges.
+            renderer.size = new Vector2(48f, 2f * CameraSize);
             renderer.sortingOrder = -10;
 
             return sky;
@@ -169,6 +185,8 @@ namespace FlappyBird.EditorTools
             renderer.drawMode = SpriteDrawMode.Tiled;
             // Wide enough that a full tile of scroll never exposes the right edge.
             renderer.size = new Vector2(44f, groundHeight);
+            // Above the pipes, so they appear to run behind the ground rather
+            // than sitting on top of it.
             renderer.sortingOrder = 10;
 
             BoxCollider2D collider = ground.AddComponent<BoxCollider2D>();
@@ -191,7 +209,7 @@ namespace FlappyBird.EditorTools
             bird.transform.position = new Vector3(BirdStartX, 0.5f, 0f);
 
             SpriteRenderer renderer = bird.AddComponent<SpriteRenderer>();
-            renderer.sprite = LoadSprite("bird");
+            renderer.sprite = LoadSprite("bird_1");
             renderer.sortingOrder = 20;
 
             Rigidbody2D body = bird.AddComponent<Rigidbody2D>();
@@ -205,7 +223,9 @@ namespace FlappyBird.EditorTools
             body.constraints = RigidbodyConstraints2D.FreezePositionX;
 
             CircleCollider2D collider = bird.AddComponent<CircleCollider2D>();
-            collider.radius = 0.13f;
+            // Deliberately tighter than the sprite. A forgiving hitbox is what
+            // makes near misses feel fair rather than cheap.
+            collider.radius = 0.2f;
 
             return bird.AddComponent<BirdController>();
         }
@@ -221,6 +241,41 @@ namespace FlappyBird.EditorTools
             so.ApplyModifiedPropertiesWithoutUndo();
 
             return spawner;
+        }
+
+        // --------------------------------------------------------------- audio
+
+        /// <summary>
+        /// Wires the sound effects up. Clips are looked up by name and left null
+        /// if absent, which <see cref="GameAudio"/> tolerates, so a missing file
+        /// costs you that one sound rather than breaking the scene.
+        /// </summary>
+        private static void BuildAudio(BirdController bird)
+        {
+            GameObject audioObject = new GameObject("Audio");
+            audioObject.AddComponent<AudioSource>();
+            GameAudio audio = audioObject.AddComponent<GameAudio>();
+
+            SerializedObject so = new SerializedObject(audio);
+            so.FindProperty("bird").objectReferenceValue = bird;
+            so.FindProperty("flapClip").objectReferenceValue = LoadClip("sfx_wing");
+            so.FindProperty("scoreClip").objectReferenceValue = LoadClip("sfx_point");
+            so.FindProperty("hitClip").objectReferenceValue = LoadClip("sfx_hit");
+            so.FindProperty("dieClip").objectReferenceValue = LoadClip("sfx_die");
+            so.ApplyModifiedPropertiesWithoutUndo();
+        }
+
+        private static AudioClip LoadClip(string name)
+        {
+            string path = $"{AudioFolder}/{name}.wav";
+            AudioClip clip = AssetDatabase.LoadAssetAtPath<AudioClip>(path);
+
+            if (clip == null)
+            {
+                Debug.LogWarning($"Audio clip '{path}' not found; that sound will be silent.");
+            }
+
+            return clip;
         }
 
         // ----------------------------------------------------------------- HUD
