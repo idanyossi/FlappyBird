@@ -108,3 +108,7 @@ InitTestScene*.unity*
 
 # Local working notes (not part of the submission)
 /PROGRESS.md
+
+# Slicer output - regenerate with Tools > Flappy Bird > Slice Sprite Sheets
+/Assets/Art/Sliced/
+/Assets/Art/Sliced.meta
