@@ -44,15 +44,22 @@ namespace FlappyBird.Obstacles
         private float timeUntilNextSpawn;
         private bool spawning;
 
-        private void OnEnable()
+        // See the note in BirdController: subscribing in OnEnable races with
+        // the manager's Awake, and losing that race meant no pipes ever spawned.
+        private void Start()
         {
-            if (GameManager.Instance != null)
+            GameManager game = GameManager.Instance;
+            if (game == null)
             {
-                GameManager.Instance.StateChanged += HandleStateChanged;
+                Debug.LogError($"No {nameof(GameManager)} in the scene; pipes will not spawn.", this);
+                return;
             }
+
+            game.StateChanged += HandleStateChanged;
+            HandleStateChanged(game.State);
         }
 
-        private void OnDisable()
+        private void OnDestroy()
         {
             if (GameManager.Instance != null)
             {

@@ -26,24 +26,29 @@ namespace FlappyBird.UI
         [SerializeField] private TMP_Text finalScoreLabel;
         [SerializeField] private TMP_Text bestScoreLabel;
 
-        private void OnEnable()
+        // See the note in BirdController: subscribing in OnEnable races with the
+        // manager's Awake. When it lost, the HUD never received a state change
+        // and every panel stayed visible at once, so the ready and game-over
+        // text rendered on top of each other.
+        private void Start()
         {
             GameManager game = GameManager.Instance;
             if (game == null)
             {
+                Debug.LogError($"No {nameof(GameManager)} in the scene; the HUD cannot update.", this);
                 return;
             }
 
             game.StateChanged += HandleStateChanged;
             game.ScoreChanged += HandleScoreChanged;
 
-            // Adopt the current values immediately, in case this component was
-            // enabled after the manager had already broadcast.
+            // Adopt the current values immediately rather than waiting for the
+            // next broadcast, which may already have happened.
             HandleStateChanged(game.State);
             HandleScoreChanged(game.Score);
         }
 
-        private void OnDisable()
+        private void OnDestroy()
         {
             GameManager game = GameManager.Instance;
             if (game == null)

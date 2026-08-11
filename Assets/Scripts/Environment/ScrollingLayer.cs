@@ -32,15 +32,20 @@ namespace FlappyBird.Environment
             startPosition = transform.position;
         }
 
-        private void OnEnable()
+        // See the note in BirdController: OnEnable can run before the manager's
+        // Awake, in which case the subscription was silently skipped.
+        private void Start()
         {
-            if (GameManager.Instance != null)
+            GameManager game = GameManager.Instance;
+            if (game == null)
             {
-                GameManager.Instance.StateChanged += HandleStateChanged;
+                return;
             }
+
+            game.StateChanged += HandleStateChanged;
         }
 
-        private void OnDisable()
+        private void OnDestroy()
         {
             if (GameManager.Instance != null)
             {

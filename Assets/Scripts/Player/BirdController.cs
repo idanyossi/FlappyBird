@@ -45,6 +45,9 @@ namespace FlappyBird.Player
         [Tooltip("Speed of the hover animation shown before the run starts.")]
         [SerializeField] private float bobFrequency = 2.5f;
 
+        /// <summary>Raised the moment a flap is actually applied, for audio and effects.</summary>
+        public event System.Action Flapped;
+
         private Rigidbody2D body;
         private Vector2 startPosition;
         private Quaternion startRotation;
@@ -59,15 +62,25 @@ namespace FlappyBird.Player
             startRotation = transform.rotation;
         }
 
-        private void OnEnable()
+        // Subscribing in Start rather than OnEnable: Unity guarantees every
+        // Awake has run before any Start, but it does NOT guarantee the
+        // manager's Awake beats another object's OnEnable. Wiring up in
+        // OnEnable silently did nothing whenever the ordering went the other
+        // way, leaving the bird frozen and the pipes never spawning.
+        private void Start()
         {
-            if (GameManager.Instance != null)
+            GameManager game = GameManager.Instance;
+            if (game == null)
             {
-                GameManager.Instance.StateChanged += HandleStateChanged;
+                Debug.LogError($"No {nameof(GameManager)} in the scene; the bird cannot run.", this);
+                return;
             }
+
+            game.StateChanged += HandleStateChanged;
+            HandleStateChanged(game.State);
         }
 
-        private void OnDisable()
+        private void OnDestroy()
         {
             if (GameManager.Instance != null)
             {
@@ -128,6 +141,7 @@ namespace FlappyBird.Player
                 // feel identical regardless of how fast the bird was falling.
                 body.linearVelocity = new Vector2(body.linearVelocity.x, flapSpeed);
                 flapQueued = false;
+                Flapped?.Invoke();
             }
 
             ClampToCeiling();

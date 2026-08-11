@@ -12,6 +12,11 @@ namespace FlappyBird.Core
     /// avoids a reload stall and the whole class of "stale reference after
     /// scene load" bugs.
     /// </summary>
+    /// <remarks>
+    /// Runs early so <see cref="Instance"/> is assigned before anything else
+    /// starts looking for it.
+    /// </remarks>
+    [DefaultExecutionOrder(-100)]
     public sealed class GameManager : MonoBehaviour
     {
         private const string BestScoreKey = "FlappyBird.BestScore";
