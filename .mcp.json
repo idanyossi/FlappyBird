@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "unity": {
+      "type": "stdio",
+      "command": "C:\\Users\\Idan\\.unity\\relay\\relay_win.exe",
+      "args": ["--mcp"]
+    }
+  }
+}
